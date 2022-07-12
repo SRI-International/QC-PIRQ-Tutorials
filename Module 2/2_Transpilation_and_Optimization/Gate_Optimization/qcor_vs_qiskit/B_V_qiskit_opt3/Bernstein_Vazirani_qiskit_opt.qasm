@@ -1,0 +1,18 @@
+OPENQASM 3;
+include "stdgates.inc";
+bit[5] meas;
+u2(0, pi) $8;
+cx $8, $3;
+cx $7, $8;
+cx $8, $7;
+cx $7, $12;
+cx $11, $12;
+cx $12, $11;
+cx $11, $12;
+cx $7, $12;
+barrier $7, $14, $17, $0, $6, $3, $9, $11, $18, $15, $4, $1, $8, $13, $10, $16, $19, $2, $5, $12;
+meas[0] = measure $7;
+meas[1] = measure $3;
+meas[2] = measure $11;
+meas[3] = measure $12;
+meas[4] = measure $8;
