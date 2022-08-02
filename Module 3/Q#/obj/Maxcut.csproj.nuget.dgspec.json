@@ -1,0 +1,91 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/hakanayaz/Documents/GitHub/PIRQ_Draft/Module 3/Q#/Maxcut.csproj": {}
+  },
+  "projects": {
+    "/Users/hakanayaz/Documents/GitHub/PIRQ_Draft/Module 3/Q#/Maxcut.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/hakanayaz/Documents/GitHub/PIRQ_Draft/Module 3/Q#/Maxcut.csproj",
+        "projectName": "Maxcut",
+        "projectPath": "/Users/hakanayaz/Documents/GitHub/PIRQ_Draft/Module 3/Q#/Maxcut.csproj",
+        "packagesPath": "/Users/hakanayaz/.nuget/packages/",
+        "outputPath": "/Users/hakanayaz/Documents/GitHub/PIRQ_Draft/Module 3/Q#/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/hakanayaz/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.Quantum.CSharpGeneration": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[0.25.218240, )",
+              "autoReferenced": true
+            },
+            "Microsoft.Quantum.EntryPointDriver": {
+              "target": "Package",
+              "version": "[0.25.218240, )",
+              "autoReferenced": true
+            },
+            "Microsoft.Quantum.QSharp.Core": {
+              "target": "Package",
+              "version": "[0.25.218240, )"
+            },
+            "Microsoft.Quantum.Runtime.Core": {
+              "target": "Package",
+              "version": "[0.25.218240, )",
+              "autoReferenced": true
+            },
+            "Microsoft.Quantum.Standard": {
+              "target": "Package",
+              "version": "[0.25.218240, )"
+            },
+            "Microsoft.Quantum.Targets.Interfaces": {
+              "target": "Package",
+              "version": "[0.25.218240, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.302/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
